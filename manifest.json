@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "书签权重智能管理器",
+  "version": "1.0.0",
+  "description": "读取所有书签，根据常驻1小时+5、重复打开+1及自定义权重规则进行降序排序与管理。",
+  "permissions": [
+    "bookmarks",
+    "tabs",
+    "storage",
+    "alarms"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "options_page": "options.html"
+}
