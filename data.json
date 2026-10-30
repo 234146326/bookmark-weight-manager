@@ -1,0 +1,22 @@
+[
+  {
+    "title": "GitHub 开发者平台",
+    "url": "https://github.com",
+    "category": "开发工具"
+  },
+  {
+    "title": "Google 搜索引擎",
+    "url": "https://google.com",
+    "category": "日常检索"
+  },
+  {
+    "title": "V2EX 创意工作者社区",
+    "url": "https://v2ex.com",
+    "category": "极客社区"
+  },
+  {
+    "title": "🔖 书签权重智能管理器",
+    "url": "https://234146326.github.io/bookmark-weight-manager/",
+    "category": "浏览器扩展"
+  }
+]
